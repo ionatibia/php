@@ -1,0 +1,51 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<script src="lib/jquery-1.11.2.min.js"></script>
+	<script src="lib/jquery.validate.min.js" type="text/javascript"></script>
+	<style type="text/css">
+
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#formulario").validate({
+				rules:{
+					nombre:{
+						required:true,
+						maxlength:15
+					},
+					pass:{
+						required:true,
+						maxlength:10
+					},
+				},//rules
+
+				messages:{
+					nombre:{
+						required:"Necesario nombre de usuario",
+						maxlength:"No puede tener mas de 15 caracteres"
+					},
+					pass:{
+						required:"Necesaria la contraseña",
+						maxlength:"Máximo 10 caracteres"
+					},
+				},//messages
+
+				errorPlacment: function(error,element){
+						error.insertAfter(element);
+				}
+			});//validate
+		});//ready
+
+	</script>
+</head>
+<body>
+	<h1>Login</h1>
+	<form id="formulario" action="login.php" method="POST">
+		<label for="nombre">Nombre</label><input type="text" name="nombre" id="nombre"/><br/>
+		<label for="pass">Password</label><input type="password" name="pass" id="pass"/><br/>
+		<input type="submit" value="Enviar"/>
+	</form>
+</body>
