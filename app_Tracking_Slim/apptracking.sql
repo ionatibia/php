@@ -6,7 +6,8 @@
 -- Tiempo de generación: 08-10-2015 a las 18:20:36
 -- Versión del servidor: 5.6.24
 -- Versión de PHP: 5.5.24
-
+CREATE DATABASE IF NOT EXISTS apptracking;
+use apptracking;
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
@@ -39,11 +40,7 @@ CREATE TABLE IF NOT EXISTS `posiciones` (
 --
 
 INSERT INTO `posiciones` (`id_posiciones`, `id_usuario`, `longitud`, `latitud`, `tiempo`) VALUES
-(1, 0, 30.5, 25.32, '2147483647'),
-(2, 0, 25.65, 12.25, '2147483647'),
-(3, 0, 22, 22, '22'),
-(4, 7, 22, 34, '44'),
-(5, 7, 12, 43, '55');
+(1, 1, -1.9783761000000002, 43.322060199999996, '2147483647');
 
 -- --------------------------------------------------------
 
@@ -62,9 +59,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id_usuario`, `nombre`, `correo`) VALUES
-(1, 'pepe', 'correo@correo.com'),
-(2, 'otilio', 'otilio@correo.com'),
-(7, 'kaixo', 'kaixo@correo.com');
+(1, 'pepe', 'correo@correo.com');
 
 --
 -- Índices para tablas volcadas

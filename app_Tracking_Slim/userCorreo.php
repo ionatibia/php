@@ -19,7 +19,7 @@
 			$mail->SMTPAuth = true;
 			//$mail->SMTPSecure = "ssl";
 			$mail->Host = "smtp.live.com";
-			$mail->Port = 25;
+			$mail->Port = 587;
 			$mail->Username = "natiexperiencia@hotmail.com";
 			$mail->Password = "nati666000";
 			$mail->From = "natiexperiencia@hotmail.com";
@@ -55,7 +55,7 @@
 			$mail->SMTPAuth = true;
 			//$mail->SMTPSecure = "ssl";
 			$mail->Host = "smtp.live.com";
-			$mail->Port = 25;
+			$mail->Port = 587;
 			$mail->Username = "natiexperiencia@hotmail.com";
 			$mail->Password = "nati666000";
 			$mail->From = "natiexperiencia@hotmail.com";
