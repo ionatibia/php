@@ -27,3 +27,8 @@ http://www.phptherightway.com/#error_reporting
 
 ##Debug
 http://www.sitepoint.com/debugging-xdebug-sublime-text-3/  
+
+##Environment Variables  
+*.htacces  
+	SetEnv NAME name  
+*<?php echo getenv("NAME");?>  
