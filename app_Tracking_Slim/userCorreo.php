@@ -20,10 +20,10 @@
 			//$mail->SMTPSecure = "ssl";
 			$mail->Host = "smtp.live.com";
 			$mail->Port = 587;
-			$mail->Username = "natiexperiencia@hotmail.com";
-			$mail->Password = "nati666000";
-			$mail->From = "natiexperiencia@hotmail.com";
-			$mail->FromName = "Nati";
+			$mail->Username = "";
+			$mail->Password = "";
+			$mail->From = "";
+			$mail->FromName = "";
 			$mail->Subject = "Bienvenido a App Tracking";
 			$mail->AltBody = "Mensaje de prueba";
 			$mail->msgHTML("<h1>Mensaje de Bienvenida</h1><br/><br/><p>Gracias por incribirse en la app <b>App Tracking</b></p><br/>
@@ -56,10 +56,10 @@
 			//$mail->SMTPSecure = "ssl";
 			$mail->Host = "smtp.live.com";
 			$mail->Port = 587;
-			$mail->Username = "natiexperiencia@hotmail.com";
-			$mail->Password = "nati666000";
-			$mail->From = "natiexperiencia@hotmail.com";
-			$mail->FromName = "Nati";
+			$mail->Username = "";
+			$mail->Password = "";
+			$mail->From = "";
+			$mail->FromName = "";
 			$mail->Subject = "Posiciones App Tracking";
 			$mail->AltBody = "Mensaje de prueba";
 			$mail->msgHTML($correoAenviar);
