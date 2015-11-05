@@ -69,7 +69,7 @@ $service = new Google_Service_Drive($client);
 
 // Print the names and IDs for up to 10 files.
 $optParams = array(
-  'maxResults' => 10,
+  'maxResults' => 50,
 );
 $results = $service->files->listFiles($optParams);
 
