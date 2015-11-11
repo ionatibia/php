@@ -1,6 +1,8 @@
-# app_Tracking
-###Aplicación para mostrar puntos gps en un mapa  
-* Insertar en el formulario un nombre y un email para darse de alta y añadir longitud, latitud y hora para añadir puntos  
-* Para añadir mas puntos utilizar el mismo nombre de usuario y email
-* Para únicamente mostrar los puntos en el mapa, utilizar el formulario corto con el nombre de usuario y email
+# App_Tracking_TwigV2.0
+## Aplicación para guardar y mostrar puntos de geolocalozación 
+* La diferencia con la APP_Tracking_Twig radica en la separación de código html y javascript  
+* En el primer formulario insertar un correo y un nombre de usuario, si no existe se crea automaticamente... insertar longitud, latitud y hora para crear un nuevo punto  
+* Para insertar mas puntos, utilizar el mismo formulario con el mismo correo y nombre de usuario  
+* Para mostrar los puntos guardados de un usuario, utilizar el segundo formulario con el correo y nombre de usuario utilizado para la inserción de puntos  
+* La APP envía correo de bienvenida al usuario y después envía correo con las posiciones insertadas  
 http://www.bufa.es/google-maps-latitud-longitud/
