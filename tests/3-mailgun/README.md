@@ -9,5 +9,5 @@
 ###Pasos en Gmail
 * Config->Cuentas e importacion -> Añadir otra direccion de correo
 * Nombre= el que se quiera, Correo= usuarioSMTPMaigun@dominioMailgun.com, SMTP=smtp.maigun.org, SMTP User=correo
-* Verificar datos con correo de validacion
+* Verificar datos con correo de validacion  
 ###https://documentation.mailgun.com/quickstart-sending.html#how-to-start-sending-email
